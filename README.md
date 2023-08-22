@@ -32,3 +32,11 @@ A customizable QR code generator to create beautiful and unique QR codes.
 ### Demo of Randomize Style & Presets
 
 ![](public/app_preview.gif)
+
+Docker setup:
+- Clone reppo
+- docker build -t styled-qr-code-generator .
+- docker run -p 5173:5173 styled-qr-code-generator
+- Thats it enjoy
+
+
